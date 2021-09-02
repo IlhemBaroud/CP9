@@ -59,16 +59,20 @@ BEGIN
     //Initializing htab1
     write('Enter an integer of htab1');
     read(c);
+    i:=0; 
     WHILE (c isInteger) DO
         htab1.insert((integer)c, i);
+        i++;
         write('Enter an integer of htab1');
         read(c);
     END_WHILE
     //Initializing htab2
+    i:=0;
     write('Enter an integer of htab2');
     read(c);
     WHILE (c isInteger) DO
         htab2.insert((integer)c, i);
+        i++;
         write('Enter an integer of htab2');
         read(c);
     END_WHILE
